@@ -2,17 +2,11 @@ class Dog
 
 @@all = []
 
-<<<<<<< HEAD
 attr_accessor :name
 
   def initialize(name)
     @name = name
     self.save
-=======
-  def initialize(name)
-    @name = name
-    @@all << self
->>>>>>> ef0a136335528be286f82694f3b23546ea89d104
   end
 
   def self.all
@@ -24,7 +18,6 @@ attr_accessor :name
   end
   
   def self.print_all
-<<<<<<< HEAD
     @@all.each do |x|
       puts x.name
     end
@@ -34,11 +27,4 @@ attr_accessor :name
     @@all << self
   end
   
-=======
-    @@all.each do |@name|
-      puts @name
-    end
-  end
-
->>>>>>> ef0a136335528be286f82694f3b23546ea89d104
 end
